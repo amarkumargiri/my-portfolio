@@ -1,3 +1,4 @@
+import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import ParticlesBackground from "./components/ParticlesBackground";
 import About from "./sections/About";
@@ -15,6 +16,7 @@ export default function App() {
     <div className="realtive gradient text-white">
 
       <ParticlesBackground/>
+      <CustomCursor/>
 
 
       <Navbar />
